@@ -1,0 +1,9 @@
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\Helpers\bin\Debug\Helpers.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\Helpers\bin\Debug\Helpers.pdb
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\Helpers\bin\Debug\WebDriver.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\Helpers\bin\Debug\WebDriver.Support.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\Helpers\bin\Debug\WebDriver.xml
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\Helpers\bin\Debug\WebDriver.Support.xml
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\Helpers\obj\Debug\Helpers.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\Helpers\obj\Debug\Helpers.pdb

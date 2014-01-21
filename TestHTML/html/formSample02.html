@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Seleniumテスト用ファイル02</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      <!--
+      function calc() {
+        var xx = parseFloat(document.F2.PRICE01.value);
+        var yy = parseFloat(document.F2.PRICE02.value);
+        document.F2.RESULT.value = xx + yy;
+      }
+      // -->
+    </script>
+    
+    <h1>Seleniumテスト用ファイル02</h1>
+    
+    <form name="F1" method="POST" action="formSample03.html">
+      名前： <input id="name1" type="text" name="NAME" maxlength=10><br>
+      住所： <input id="addr1" type="text" name="ADDR"><br>
+      
+      <br><br>
+      
+      <textarea id="kansou1" name="KANSOU" cols=30 rows=3>AAA</textarea>
+      
+      <br><br>
+      
+      <input id="seibetsuTest1" type="radio" name="SEIBETSU" value="男性" checked>男性
+      <input id="seibetsuTest2" type="radio" name="SEIBETSU" value="女性">女性
+      
+      <br><br>
+      
+      <input id="riyuu1" type="checkbox" name="RIYUU">書店で
+      <input id="riyuu2" type="checkbox" name="RIYUU">友人に薦められて
+      
+      <br><br>
+      
+      <select id="kokumei1" name="KOKUMEI">
+        <option value="JAPAN">日本
+        <option value="USA">米国
+        <option value="ENGLAND">英国
+        <option value="CHINA">中華人民共和国
+      </select>
+      
+      <br><br>
+      
+      <select id="browser1" name="BROWSER" size=3>
+        <option value="IE5">Internet Explorer 5.X
+        <option value="IE4">Internet Explorer 4.X
+        <option value="IE3">Internet Explorer 3.X
+        <option value="NN6">Netscape 6.X
+        <option value="NN4">Netscape Communicator 4.X
+        <option value="NN3">Netscape Navigator 3.X
+        <option value="OTHER">その他
+      </select>
+      
+      <br><br>
+      
+      <input type="button" onclick="alert('名前: ' + document.F1.NAME.value)" value="アラート(名前)" name="ALERT">
+      <input type="button" onclick="window.open('newWindow.html', 'newWindow', 'width=400,height=600'); return false;" value="新窓(住所入力)" name="OPENWINDOW">
+      <input type="reset" value="クリア" name="reset">
+      
+      <br><br>
+      
+      
+      <input type="button" onclick="history.back()" value="戻る" name"BACK">
+      <a href="javascript:history.back()"><img src="../img/button02.gif" alt="戻る"/></a>
+      <a href="../index.html">戻る</a>
+      <input type="submit" value="次へ" name="submit">
+      <a href="formSample03.html"><img src="../img/button01.gif" alt="次へ"/></a>
+      <a href="formSample03.html">次へ</a>
+
+    </form>
+    
+    <hr>
+    
+    <br>
+    合計金額を計算します。<br>
+    <br>
+    
+    <form name="F2" action="#">
+      　金額01：<input type="text" name="PRICE01"><br>
+      　金額02：<input type="text" name="PRICE02"><br>
+      合計金額：<input type="text" name="RESULT"><br>
+      <input type="button" onclick="calc()" value="計算実行" name="calcBtn">
+    </form>
+  </body>
+</html>

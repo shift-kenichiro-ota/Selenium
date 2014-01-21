@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>New Window Sample</title>
+  </head>
+  <body>
+    <h1>New Window Sample</h1>
+    
+    <form name="F1">
+      名前： <input type="text" name="NAME" maxlength=10><br>
+      住所： <input type="text" name="ADDR"><br>
+      
+      <input type="reset" value="クリア" name="reset">
+      
+      <br><br>
+      OKを押すと親ウィンドウに入力した名前と住所を反映させます。<br>
+      閉じるは何もしません。<br>
+      Chromeでは動作しません。<br>
+      <br>
+      <input type="button" name="OK" value="OK" onclick="opener.document.F1.NAME.value=this.form.NAME.value; opener.document.F1.ADDR.value=this.form.ADDR.value; window.close();">
+      <input type="button" name="CLOSE" onclick="window.close()" value="閉じる" name="button">
+    </form>
+    
+  </body>
+</html>

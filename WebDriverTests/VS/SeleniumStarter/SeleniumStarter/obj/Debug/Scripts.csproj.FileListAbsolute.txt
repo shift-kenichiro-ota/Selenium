@@ -1,0 +1,13 @@
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\obj\Debug\Scripts.csprojResolveAssemblyReference.cache
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\Scripts.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\Scripts.pdb
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\Helpers.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\Pages.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\WebDriver.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\WebDriver.Support.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\Helpers.pdb
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\Pages.pdb
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\WebDriver.xml
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\bin\Debug\WebDriver.Support.xml
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\obj\Debug\Scripts.dll
+c:\users\lei.wang\documents\visual studio 2012\Projects\SeleniumStarter\SeleniumStarter\obj\Debug\Scripts.pdb
