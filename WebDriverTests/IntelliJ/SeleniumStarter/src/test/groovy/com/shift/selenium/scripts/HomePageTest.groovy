@@ -24,50 +24,45 @@ import static org.junit.Assert.assertThat;
  * To change this template use File | Settings | File Templates.
  */
 public class HomePageTest {
-    private WebDriver driver;
-    private HomePage homePage;
-    private Wait<WebDriver> wait;
+    def driver
+    def homePage
 
     @Test
     public void testElementsExistenceAndDefaultValues() {
-        assertThat(homePage.isTextPresent("Seleniumテスト用ファイル"), is(true));
-        assertThat(homePage.getInputElementsByType("checkbox").size(), is(3));
-        assertThat(homePage.getFemaleRadioboxStatus(), is(false));
-        assertThat(homePage.getMaleRadioboxStatus(), is(true));
-        assertThat(homePage.getSelectedCountry(), is("日本"));
+        assert homePage.isTextPresent("Seleniumテスト用ファイル")
+        assert homePage.getInputElementsByType("checkbox").size() == 3
+        assert !homePage.getFemaleRadioboxStatus()
+        assert homePage.getMaleRadioboxStatus()
+        assert homePage.getSelectedCountry() == "日本"
     }
 
     @Test
     public void testControlLogic() {
         // check alert
-        homePage.enterName("Kevin Wang");
-        homePage.fireNameAlert();
-        verifyAlertWithText("Kevin Wang");
+        homePage.enterName("Kevin Wang")
+        homePage.fireNameAlert()
+        verifyAlertWithText("名前: Kevin Wang")
     }
 
     @Test
     public void testCalculation() {
-        homePage.calculate(2.0, 3.1);
-        wait = new WebDriverWait(driver, 10);
-        assertThat(homePage.getCalculationResult(), is("5.1"));
+        homePage.calculate(2.0, 3.1)
+        def wait = new WebDriverWait(driver, 10)
+        assert homePage.getCalculationResult() == "5.1"
     }
 
     @Test
     public void testPageTransition() {
-        SecondPage secondPage = homePage.moveToNextPage();
-        assertThat(secondPage.isTextPresent("Seleniumテスト用ファイル02"), is(true));
+        SecondPage secondPage = homePage.moveToNextPage()
+        assert secondPage.isTextPresent("Seleniumテスト用ファイル02")
     }
 
     private void verifyAlertWithText(String text) {
-        try {
-            wait = new WebDriverWait(driver, 2);
-            wait.until(ExpectedConditions.alertIsPresent());
-            Alert alert = driver.switchTo().alert();
-            alert.accept();
-            assertThat(alert.getText(), is(text));
-        } catch (Exception e) {
-            //exception handling
-        }
+        def wait = new WebDriverWait(driver, 2)
+        wait.until(ExpectedConditions.alertIsPresent())
+        Alert alert = driver.switchTo().alert()
+        assert alert.getText() == text
+        alert.accept()
     }
 
     @Before

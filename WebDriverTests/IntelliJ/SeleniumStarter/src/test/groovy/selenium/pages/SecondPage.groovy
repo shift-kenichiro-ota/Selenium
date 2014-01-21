@@ -1,12 +1,12 @@
 package selenium.pages;
 
-import selenium.utils.Extensions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import selenium.utils.Extensions;
 
 import java.io.IOException;
 import java.nio.file.FileSystem;
@@ -23,22 +23,16 @@ import java.nio.file.Path;
 public class SecondPage extends PageTemplate {
 
     // fixed page url and needs to change to fit into your case
-    //private static final String url = "file:///C:/Users/lei.wang/Desktop/Selenium/%E3%83%86%E3%82%B9%E3%83%88%E7%94%A8HTML/html/formSample02.html";
     private static String url;
 
     static {
         FileSystem fileSystem = FileSystems.getDefault();
-        try {
-            if (isWindows()) {
-
-                Path path = fileSystem.getPath("..¥¥..¥¥..¥¥testHTML¥¥html¥¥formSample02.html").toRealPath();
-                url = "file:///" + path.toString().replace("¥¥", "/");
-            } else {
-                Path path = fileSystem.getPath("../../../testHTML/html/formSample02.html").toRealPath();
-                url = "file://" + path;
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
+        if (isWindows()) {
+            Path path = fileSystem.getPath("..¥¥..¥¥..¥¥testHTML¥¥html¥¥formSample02.html").toRealPath();
+            url = "file:///" + path.toString().replace("¥¥", "/");
+        } else {
+            Path path = fileSystem.getPath("../../../testHTML/html/formSample02.html").toRealPath();
+            url = "file://" + path;
         }
     }
 

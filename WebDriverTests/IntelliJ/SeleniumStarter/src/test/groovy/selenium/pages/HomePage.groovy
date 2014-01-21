@@ -1,6 +1,5 @@
 package selenium.pages;
 
-import selenium.utils.Extensions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,6 +7,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import selenium.utils.Extensions;
 
 import java.io.IOException;
 import java.nio.file.FileSystem;
@@ -26,17 +26,13 @@ public class HomePage extends PageTemplate {
     // fixed page url and needs to change to fit into your case
     private static String url;
     static {
-         FileSystem fileSystem = FileSystems.getDefault();
-        try {
-            if (isWindows()) {
-                Path path = fileSystem.getPath("..¥¥..¥¥..¥¥testHTML¥¥index.html").toRealPath();
-                url = "file:///" + path.toString().replace("¥¥", "/");
-            } else {
-                Path path = fileSystem.getPath("../../../testHTML/index.html").toRealPath();
-                url = "file://" + path;
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
+        FileSystem fileSystem = FileSystems.getDefault();
+        if (isWindows()) {
+            Path path = fileSystem.getPath("..¥¥..¥¥..¥¥testHTML¥¥index.html").toRealPath();
+            url = "file:///" + path.toString().replace("¥¥", "/");
+        } else {
+            Path path = fileSystem.getPath("../../../testHTML/index.html").toRealPath();
+            url = "file://" + path;
         }
     }
 

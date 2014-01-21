@@ -33,7 +33,7 @@ public abstract class PageTemplate extends
     @Override
     protected void isLoaded() throws Error {
         String url = driver.getCurrentUrl();
-        assertThat("Error: the required page is not loaded.", url, is(pageUrl));
+        assert url == pageUrl, "Error: the required page is not loaded."
     }
 
     @Override
