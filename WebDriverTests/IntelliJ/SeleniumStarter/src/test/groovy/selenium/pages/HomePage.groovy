@@ -1,18 +1,17 @@
-package selenium.pages;
+package selenium.pages
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import selenium.utils.Extensions;
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.support.FindBy
+import org.openqa.selenium.support.How
+import org.openqa.selenium.support.ui.Select
+import org.openqa.selenium.support.ui.Wait
+import org.openqa.selenium.support.ui.WebDriverWait
+import selenium.utils.Extensions
 
-import java.io.IOException;
-import java.nio.file.FileSystem;
-import java.nio.file.FileSystems;
-import java.nio.file.Path;
+import java.nio.file.FileSystem
+import java.nio.file.FileSystems
+import java.nio.file.Path
 
 /**
  * Created with IntelliJ IDEA.

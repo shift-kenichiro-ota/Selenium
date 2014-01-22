@@ -69,12 +69,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomePageTest.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomePageTest.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.96850395" vertical-offset="480" max-vertical-offset="1200">
+            <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
               <folding>
                 <element signature="e#36#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Extensions.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Extensions.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.047244094" vertical-offset="0" max-vertical-offset="635">
+              <folding>
+                <element signature="e#25#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,12 +242,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/shift/selenium/scripts/HomePageTest.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HOmePageTestSpock.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HOmePageTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy" />
       </list>
     </option>
   </component>
@@ -468,6 +479,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesGroovy" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -850,7 +862,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="4" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1035">
-          <folding />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +885,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Extensions.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
-          <folding />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -885,7 +901,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="4" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1035">
-          <folding />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -906,7 +924,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Extensions.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
-          <folding />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -927,7 +947,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Extensions.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
-          <folding />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -969,34 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.10236221" vertical-offset="145" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Extensions.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.25984251" vertical-offset="0" max-vertical-offset="635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="4" selection-start="1780" selection-end="1780" vertical-scroll-proportion="-0.28346458" vertical-offset="825" max-vertical-offset="2670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="4" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.52755904" vertical-offset="265" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.37.1/c55e9d517b6e487b206a56b486edd540fc7c4466/selenium-support-2.37.1-sources.jar!/org/openqa/selenium/support/ui/WebDriverWait.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="9" selection-start="223" selection-end="223" vertical-scroll-proportion="0.16535433" vertical-offset="0" max-vertical-offset="1110">
@@ -1004,11 +998,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="2" selection-start="322" selection-end="322" vertical-scroll-proportion="0.16535433" vertical-offset="30" max-vertical-offset="2835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="55" selection-start="231" selection-end="231" vertical-scroll-proportion="0.11811024" vertical-offset="15" max-vertical-offset="960">
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="373" selection-end="373" vertical-scroll-proportion="0.23622048" vertical-offset="15" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.96850395" vertical-offset="480" max-vertical-offset="1200">
+        <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
           <folding>
             <element signature="e#36#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Extensions.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.047244094" vertical-offset="0" max-vertical-offset="635">
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
