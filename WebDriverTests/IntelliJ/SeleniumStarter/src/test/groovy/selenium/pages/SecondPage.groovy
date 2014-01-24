@@ -1,16 +1,12 @@
 package selenium.pages
 
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.FindBy
-import org.openqa.selenium.support.How
-import org.openqa.selenium.support.ui.Wait
-import org.openqa.selenium.support.ui.WebDriverWait
-import selenium.utils.Extensions
+import geb.Page
 
 import java.nio.file.FileSystem
 import java.nio.file.FileSystems
 import java.nio.file.Path
+
+import static selenium.utils.Platform.isWindows
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,38 +15,25 @@ import java.nio.file.Path
  * Time: 11:40
  * To change this template use File | Settings | File Templates.
  */
-public class SecondPage extends PageTemplate {
-
-    // fixed page url and needs to change to fit into your case
-    private static String url;
+public class SecondPage extends Page {
+    static String url;
 
     static {
-        FileSystem fileSystem = FileSystems.getDefault();
+        FileSystem fileSystem = FileSystems.getDefault()
         if (isWindows()) {
-            Path path = fileSystem.getPath("..¥¥..¥¥..¥¥testHTML¥¥html¥¥formSample02.html").toRealPath();
-            url = "file:///" + path.toString().replace("¥¥", "/");
+            Path path = fileSystem.getPath("..¥¥..¥¥..¥¥testHTML¥¥html¥¥formSample02.html").toRealPath()
+            url = "file:///" + path.toString().replace("¥¥", "/")
         } else {
-            Path path = fileSystem.getPath("../../../testHTML/html/formSample02.html").toRealPath();
-            url = "file://" + path;
+            Path path = fileSystem.getPath("../../../testHTML/html/formSample02.html").toRealPath()
+            url = "file://" + path
         }
     }
 
-    // page loading wait object
-    private Wait<WebDriver> wait;
+    static at = { title == "Seleniumテスト用ファイル02" }
 
-    // page constructor
-    public SecondPage(WebDriver driver) {
-        super(driver, url);
+    static content = {
+        textElement { text -> $(text: contains(text)) }
     }
 
-    // symbolic element to identify when loading this page
-    @FindBy(how = How.XPATH, using = "//input[@type='submit' and @name='submit']")
-    private WebElement buttonSubmit;
-
-    // initialize and load the page until we can see the above symbolic element
-    @Override
-    public void init() {
-        wait = new WebDriverWait(driver, 20);
-        wait.until(Extensions.visibilityOfElement(buttonSubmit));
-    }
 }
+

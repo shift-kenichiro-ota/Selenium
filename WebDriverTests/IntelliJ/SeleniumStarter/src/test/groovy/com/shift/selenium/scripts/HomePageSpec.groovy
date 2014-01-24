@@ -2,8 +2,7 @@ package com.shift.selenium.scripts
 
 import geb.spock.GebSpec
 import selenium.pages.HomePage
-import selenium.pages.HomePageGeb
-import selenium.pages.SecondPageGeb
+import selenium.pages.SecondPage
 
 /**
  * Created by kenichiro_ota on 2014/01/22.
@@ -11,10 +10,10 @@ import selenium.pages.SecondPageGeb
 class HomePageSpec extends GebSpec {
     def "ElementsExistenceAndDefaultValues"() {
         when:
-        to HomePageGeb
+        to HomePage
 
         then:
-        at HomePageGeb
+        at HomePage
         textElement("Seleniumテスト用ファイル")
         checkbox.size()  == 3
         radioMale.attr("checked")
@@ -25,7 +24,7 @@ class HomePageSpec extends GebSpec {
 
     def "ControlLogic"() {
         when:
-        to HomePageGeb
+        to HomePage
         enterName("Kevin Wang")
 
         then:
@@ -34,7 +33,7 @@ class HomePageSpec extends GebSpec {
 
     def "Calculation"() {
         when:
-        to HomePageGeb
+        to HomePage
         calculate(2.0, 3.1)
 
         then:
@@ -43,11 +42,11 @@ class HomePageSpec extends GebSpec {
 
     def "PageTransition"() {
         when:
-        to HomePageGeb
+        to HomePage
         buttonSubmit.click()
 
         then:
-        at SecondPageGeb
+        at SecondPage
         textElement("Seleniumテスト用ファイル02")
     }
 }
