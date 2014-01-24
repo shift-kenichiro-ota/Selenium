@@ -69,23 +69,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomePageTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
+      <file leaf-file-name="PageTemplate.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+            <state line="35" column="27" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePageGeb.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePageGeb.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="1" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondPageGeb.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPageGeb.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="4" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="780">
               <folding>
-                <element signature="e#36#68#0" expanded="true" />
+                <element signature="e#24#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Extensions.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Extensions.groovy">
+      <file leaf-file-name="HomePageSpec.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.047244094" vertical-offset="0" max-vertical-offset="635">
+            <state line="8" column="41" selection-start="208" selection-end="208" vertical-scroll-proportion="0.23127754" vertical-offset="15" max-vertical-offset="885">
               <folding>
-                <element signature="e#25#61#0" expanded="true" />
+                <element signature="e#36#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -241,13 +259,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shift/selenium/pages/SecondPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shift/selenium/scripts/HomePageTest.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HOmePageTestSpock.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HOmePageTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/GoogleHomePage.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/GoogleGeb.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/selenium/utils/Platform.groovy" />
+        <option value="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePageGeb.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPageGeb.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageSpec.groovy" />
       </list>
     </option>
   </component>
@@ -266,10 +291,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1054" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -297,7 +321,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -305,6 +328,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="SeleniumStarter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -332,6 +359,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,6 +494,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,9 +512,11 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesGroovy" value="false" />
+    <property name="SearchEverywhereHistory" value="(" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="selenium.pages" />
       <recent name="com.shift.selenium.pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -493,13 +527,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="HomePageTest.ElementsExistenceAndDefaultValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HomePageSpec">
+    <configuration default="false" name="HomePageSpec.ElementsExistenceAndDefaultValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumStarter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.shift.selenium.scripts" />
-      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageSpec" />
       <option name="METHOD_NAME" value="ElementsExistenceAndDefaultValues" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -516,12 +550,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="HomePageTest.ControlLogic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HomePageSpec.ControlLogic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumStarter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.shift.selenium.scripts" />
-      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageSpec" />
       <option name="METHOD_NAME" value="ControlLogic" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -538,12 +572,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="HomePageTest.Calculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HomePageSpec.Calculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumStarter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.shift.selenium.scripts" />
-      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageSpec" />
       <option name="METHOD_NAME" value="Calculation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -560,13 +594,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="HomePageTest.testPageTransition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HomePageSpec.PageTransition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumStarter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.shift.selenium.scripts" />
-      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageTest" />
-      <option name="METHOD_NAME" value="testPageTransition" />
+      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageSpec" />
+      <option name="METHOD_NAME" value="PageTransition" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -582,12 +616,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="HomePageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HomePageSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumStarter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.shift.selenium.scripts" />
-      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shift.selenium.scripts.HomePageSpec" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -604,12 +638,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -619,12 +647,31 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -652,19 +699,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -754,19 +788,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.HomePageTest.testElementsExistenceAndDefaultValues" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.HomePageTest.testCalculation" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HomePageTest.ElementsExistenceAndDefaultValues" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HomePageTest.ControlLogic" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HomePageTest.Calculation" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.HomePageTest.testPageTransition" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.HomePageTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HomePageSpec.ElementsExistenceAndDefaultValues" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HomePageSpec.ControlLogic" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HomePageSpec.Calculation" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.HomePageSpec.PageTransition" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.HomePageSpec" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HomePageTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HomePageTest.testPageTransition" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HomePageTest.Calculation" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HomePageTest.ControlLogic" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HomePageTest.ElementsExistenceAndDefaultValues" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HomePageSpec" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HomePageSpec.PageTransition" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HomePageSpec.ElementsExistenceAndDefaultValues" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HomePageSpec.Calculation" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HomePageSpec.ControlLogic" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -802,7 +836,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="22" width="1920" height="1054" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -810,7 +844,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935897" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27508456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.50029606" order="7" side_tool="true" content_ui="tabs" />
@@ -818,17 +851,18 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328934" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32690355" sideWeight="0.49970397" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40124223" sideWeight="0.49970397" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -852,6 +886,142 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePageGeb.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="19" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="19" selection-start="5337" selection-end="5337" vertical-scroll-proportion="0.0" vertical-offset="2625" max-vertical-offset="2835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="33" selection-start="360" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="390">
+          <folding>
+            <element signature="e#36#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="35" selection-start="1308" selection-end="1309" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePageGeb.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Platform.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="43" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="375">
+          <folding>
+            <element signature="e#36#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="88" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="8" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Extensions.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="435">
+          <folding>
+            <element signature="e#25#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="4" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2670">
@@ -862,17 +1032,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="4" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1035">
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="20" column="27" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy">
@@ -886,7 +1052,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
           <folding>
-            <element signature="e#25#61#0" expanded="true" />
+            <element signature="e#25#61#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -901,17 +1067,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="4" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1035">
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="20" column="27" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy">
@@ -925,16 +1087,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
           <folding>
-            <element signature="e#25#61#0" expanded="true" />
+            <element signature="e#25#61#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="20" column="27" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy">
@@ -948,16 +1108,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
           <folding>
-            <element signature="e#25#61#0" expanded="true" />
+            <element signature="e#25#61#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="405">
-          <folding />
-        </state>
+        <state line="17" column="48" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="405" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -984,57 +1142,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="448" selection-end="448" vertical-scroll-proportion="0.47244096" vertical-offset="0" max-vertical-offset="635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.37.1/c55e9d517b6e487b206a56b486edd540fc7c4466/selenium-support-2.37.1-sources.jar!/org/openqa/selenium/support/ui/WebDriverWait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="223" selection-end="223" vertical-scroll-proportion="0.16535433" vertical-offset="0" max-vertical-offset="1110">
+        <state line="7" column="9" selection-start="223" selection-end="223" vertical-scroll-proportion="0.16535433" vertical-offset="0" max-vertical-offset="1110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="88" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Platform.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="96" selection-end="96" vertical-scroll-proportion="0.115830116" vertical-offset="0" max-vertical-offset="777">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="322" selection-end="322" vertical-scroll-proportion="0.16535433" vertical-offset="30" max-vertical-offset="2835">
+        <state line="5" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.07053292" vertical-offset="0" max-vertical-offset="638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="569" selection-end="569" vertical-scroll-proportion="0.050660793" vertical-offset="142" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/PageTemplate.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="55" selection-start="231" selection-end="231" vertical-scroll-proportion="0.11811024" vertical-offset="15" max-vertical-offset="960">
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
+        <state line="35" column="27" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPage.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePageGeb.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="373" selection-end="373" vertical-scroll-proportion="0.23622048" vertical-offset="15" max-vertical-offset="930">
+        <state line="26" column="1" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="780">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/SecondPageGeb.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="4" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="780">
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <folding>
-            <element signature="e#36#68#0" expanded="true" />
-          </folding>
+        <state line="62" column="34" selection-start="1581" selection-end="1599" vertical-scroll-proportion="0.7548387" vertical-offset="240" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.37.1/c55e9d517b6e487b206a56b486edd540fc7c4466/selenium-support-2.37.1-sources.jar!/org/openqa/selenium/support/ui/ExpectedConditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="536" column="41" selection-start="16703" selection-end="16703" vertical-scroll-proportion="0.2735484" vertical-offset="7423" max-vertical-offset="8700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/pages/HomePage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="23" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.33290324" vertical-offset="282" max-vertical-offset="2670">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/selenium/utils/Extensions.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.047244094" vertical-offset="0" max-vertical-offset="635">
+        <state line="13" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="0.36343613" vertical-offset="0" max-vertical-offset="454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/shift/selenium/scripts/HomePageSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="41" selection-start="208" selection-end="208" vertical-scroll-proportion="0.23127754" vertical-offset="15" max-vertical-offset="885">
           <folding>
-            <element signature="e#25#61#0" expanded="true" />
+            <element signature="e#36#60#0" expanded="true" />
           </folding>
         </state>
       </provider>

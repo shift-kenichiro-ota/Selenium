@@ -28,11 +28,11 @@ class HomePageTest extends Specification {
 
     def "ElementsExistenceAndDefaultValues"() {
         expect:
-        assert homePage.isTextPresent("Seleniumテスト用ファイル")
-        assert homePage.getInputElementsByType("checkbox").size() == 3
-        assert !homePage.getFemaleRadioboxStatus()
-        assert homePage.getMaleRadioboxStatus()
-        assert homePage.getSelectedCountry() == "日本"
+        homePage.isTextPresent("Seleniumテスト用ファイル")
+        homePage.getInputElementsByType("checkbox").size() == 3
+        !homePage.getFemaleRadioboxStatus()
+        homePage.getMaleRadioboxStatus()
+        homePage.getSelectedCountry() == "日本"
     }
 
 
@@ -52,15 +52,15 @@ class HomePageTest extends Specification {
         def wait = new WebDriverWait(driver, 10L)
 
         then:
-        assert homePage.getCalculationResult() == "5.1"
+        homePage.getCalculationResult() == "5.1"
     }
 
-    public void testPageTransition() {
+    def "PageTransition"() {
         when:
         SecondPage secondPage = homePage.moveToNextPage()
 
         then:
-        assert secondPage.isTextPresent("Seleniumテスト用ファイル02")
+        secondPage.isTextPresent("Seleniumテスト用ファイル02")
     }
 
     void verifyAlertWithText(String text) {
