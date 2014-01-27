@@ -13,7 +13,6 @@ class HomePageSpec extends GebSpec {
         to HomePage
 
         then:
-        at HomePage
         textElement("Seleniumテスト用ファイル")
         checkbox.size()  == 3
         radioMale.attr("checked")
@@ -37,7 +36,7 @@ class HomePageSpec extends GebSpec {
         calculate(2.0, 3.1)
 
         then:
-        waitFor(10) { textResult.value() == "5.1" }
+        waitFor(10) { textResult == "5.1" }
     }
 
     def "PageTransition"() {
@@ -46,7 +45,6 @@ class HomePageSpec extends GebSpec {
         buttonSubmit.click()
 
         then:
-        at SecondPage
         textElement("Seleniumテスト用ファイル02")
     }
 }
