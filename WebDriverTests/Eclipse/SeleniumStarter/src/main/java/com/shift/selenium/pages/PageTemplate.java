@@ -56,4 +56,8 @@ public abstract class PageTemplate extends
     public WebElement getElementById(String id){
         return driver.findElement(By.xpath("//*[@id='" + id + "']"));
     }
+    
+    public static boolean isWindows() {
+        return System.getProperty("os.name").contains("Windows");
+    }
 }

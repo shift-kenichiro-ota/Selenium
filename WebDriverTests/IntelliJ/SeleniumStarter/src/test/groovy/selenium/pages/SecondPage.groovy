@@ -16,8 +16,7 @@ import static selenium.utils.Platform.isWindows
  * To change this template use File | Settings | File Templates.
  */
 public class SecondPage extends Page {
-    static String url;
-
+    static String url
     static {
         FileSystem fileSystem = FileSystems.getDefault()
         if (isWindows()) {
