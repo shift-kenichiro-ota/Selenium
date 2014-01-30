@@ -20,8 +20,8 @@ public class SecondPage extends Page {
     static {
         FileSystem fileSystem = FileSystems.getDefault()
         if (isWindows()) {
-            Path path = fileSystem.getPath("..¥¥..¥¥..¥¥testHTML¥¥html¥¥formSample02.html").toRealPath()
-            url = "file:///" + path.toString().replace("¥¥", "/")
+            Path path = fileSystem.getPath("..\\..\\..\\testHTML\\html\\formSample02.html").toRealPath()
+            url = "file:///" + path.toString().replace("\\", "/")
         } else {
             Path path = fileSystem.getPath("../../../testHTML/html/formSample02.html").toRealPath()
             url = "file://" + path

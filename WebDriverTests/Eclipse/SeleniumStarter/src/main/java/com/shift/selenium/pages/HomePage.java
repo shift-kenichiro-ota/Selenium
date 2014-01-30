@@ -25,9 +25,9 @@ public class HomePage extends PageTemplate {
 		try {
 			if (isWindows()) {
 				Path path;
-				path = fileSystem.getPath("..¥¥..¥¥..¥¥testHTML¥¥index.html")
+				path = fileSystem.getPath("..\\..\\..\\testHTML\\index.html")
 						.toRealPath();
-				url = "file:///" + path.toString().replace("¥¥", "/");
+				url = "file:///" + path.toString().replace("\\", "/");
 			} else {
 				Path path = fileSystem.getPath("../../../testHTML/index.html")
 						.toRealPath();
