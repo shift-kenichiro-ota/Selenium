@@ -3,4 +3,8 @@
  */
 import org.openqa.selenium.firefox.FirefoxDriver
 
+import java.nio.file.FileSystem
+import java.nio.file.FileSystems
+import java.nio.file.Path
+
 driver = { new FirefoxDriver() }

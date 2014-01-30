@@ -2,6 +2,7 @@ package selenium.pages
 
 import geb.Page
 
+import java.nio.file.FileSystem
 import java.nio.file.FileSystems
 import java.nio.file.Path
 
@@ -13,7 +14,7 @@ import static selenium.utils.Platform.isWindows
 class HomePage extends Page {
     static String url
     static {
-        java.nio.file.FileSystem fileSystem = FileSystems.getDefault();
+        FileSystem fileSystem = FileSystems.getDefault();
         if (isWindows()) {
             Path path = fileSystem.getPath("..¥¥..¥¥..¥¥testHTML¥¥index.html").toRealPath()
             url = "file:///" + path.toString().replace("¥¥", "/")
